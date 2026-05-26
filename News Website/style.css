@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Style</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Page-specific backgrounds */
+.home-page { background-color:pink; }
+.about-page { background-color:pink; }
+.story-page { background-color:pink; }
+.style-page { background-color:pink; }
+.gallery-page { background-color:pink; }
+.contact-page { background-color:pink; }
+
+/* Highlight current nav link */
+.home-page .home-link,
+.about-page .about-link,
+.story-page .story-link,
+.style-page .style-link,
+.gallery-page .gallery-link,
+.contact-page .contact-link {
+  color: red;
+  font-weight: bold;
+}
+">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="story.html">Story</a>
+        <a href="style.html">Style</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>My Style</h1>
+    <p>Describe your style, approach, or theme here.</p>
+</body>
+</html>
